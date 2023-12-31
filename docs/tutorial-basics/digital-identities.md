@@ -2,56 +2,60 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Digital Identities
 
-Documents are **groups of pages** connected through:
+Digital identities, or **Avatars**, are what you can use in daily life. Whether it's a login to a website, or a signature on a post, or a message to a friend, you can use your Avatars.
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+For Outis, **Avatar Secret key** is the key to generate your digital identity. It's a **Secret Key**.
 
-## Create your first Doc
+## 1. Digital Identity Personal Information
 
-Create a Markdown file at `docs/hello.md`:
+**Digital Identity Personal Information** is the personal information of your digital identity.
 
-```md title="docs/hello.md"
-# Hello
+:::tip
 
-This is my **first Docusaurus document**!
-```
+- **Personal Information** can be fake or real.
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+- The fake part is generated from your **Avatar Secret key**.
 
-## Configure the Sidebar
+- The real part is what you fill in.
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+:::
 
-Add metadata to customize the sidebar label and position:
+here is an example of a digital identity personal information:
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: "Hi!"
-sidebar_position: 3
----
+![digital identity personal information](./img/digital-identity-personal-information.png)
 
-# Hello
+## 2. Footprint
 
-This is my **first Docusaurus document**!
-```
+**Footprint** is the record of activity for your digital identity.
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+:::tip
 
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    "intro",
-    // highlight-next-line
-    "hello",
-    {
-      type: "category",
-      label: "Tutorial",
-      items: ["tutorial-basics/create-a-document"],
-    },
-  ],
-};
-```
+- **Footprint** is fetched from Outis server.
+
+- **Footprint** is **public**.
+
+- **Footprint** is for you to check and find if someone is **impersonating** you.
+
+:::
+
+## 3. Operations
+
+**Operations** refer to the operations you can do with your digital identity.
+
+:::tip
+
+there are 3 operations:
+
+- **Unlock** Digital identities are unlocked by default.
+
+- **Lock** Once you lock your digital identity, you can't login with it or sign a .
+
+- **Freeze** By freeze, you label your digital identity as frozen. It's a way to tell others that you are not using this digital identity anymore.
+
+And there is a **Contracts** button:
+
+- **Contracts** opens a list of contracts you have signed. So you can manage your contracts at one place.
+
+:::

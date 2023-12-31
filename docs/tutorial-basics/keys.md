@@ -22,7 +22,7 @@ A good practice is to use a generator to create some RSKs, print it out and keep
 
 Ex: `["personal", "blog"]` means this key is used for personal blog.
 
-## 3. Avatar Secret key
+## 3. Avatar Secret Key
 
 **Avatar Secret key** is the key to generate your digital identity. It's a **Secret Key**.
 
@@ -31,7 +31,7 @@ Ex: `["personal", "blog"]` means this key is used for personal blog.
 - It **will** be used to sign your posts.
 - It comes with a _**Public Key**_.
 
-## 4. Avatar Public key
+## 4. Avatar Public Key
 
 **Avatar Public key** is the key to generate your digital identity. It's a **Public Key**.
 
