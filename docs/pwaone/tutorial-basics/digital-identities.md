@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Digital identities, or **Avatars**, are what you can use in daily life. Whether it's a login to a website, or a signature on a post, or a message to a friend, you can use your Avatars.
 
-For Outis, **Avatar Secret key** is the key to generate your digital identity. It's a **Secret Key**.
+For PWA One, **Avatar Secret key** is the key to generate your digital identity. It's a **Secret Key**.
 
 ## 1. Digital Identity Personal Information
 
@@ -32,7 +32,7 @@ here is an example of a digital identity personal information:
 
 :::tip
 
-- **Footprint** is fetched from Outis server.
+- **Footprint** is fetched from PWA One server.
 
 - **Footprint** is **public**.
 

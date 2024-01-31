@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Intro
 
-Let's discover **AF's working experience**.
+Let's discover **AF's working experience and reflections**.
 
 ## About Abraham Fig
 

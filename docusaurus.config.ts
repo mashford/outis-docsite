@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "writings and thoughts of AF",
-  tagline: "& Outis doc site",
+  title: "Writings and Thoughts of AF",
+  tagline: "& PWA One doc site",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -68,13 +68,13 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Outis",
+          label: "PWA One",
         },
         {
           type: "docSidebar",
-          sidebarId: "experienceSidebar",
+          sidebarId: "reflectionsSidebar",
           position: "left",
-          label: "Experience",
+          label: "Thoughts",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {

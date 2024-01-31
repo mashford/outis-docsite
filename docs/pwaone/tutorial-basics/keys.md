@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Keys
 
-Keys are the core of Outis. They are used to generate your digital identity, sign your posts, and encrypt your messages.
+Keys are the core of PWA One. They are used to generate your digital identity, sign your posts, and encrypt your messages.
 
 ## 1. Root Secret Key
 
-**RSK (Root Secret Key)** is the start point of your Outis journey.
+**RSK (Root Secret Key)** is the start point of your PWA One journey.
 
-- Like a Bitcoin wallet has a secret key, Outis has RSK to for generating everything else.
+- Like a Bitcoin wallet has a secret key, PWA One has RSK to for generating everything else.
 
 - RSK is a **Secret Key**, that's say, it will never leave your phone. _It will not be in the keychain, it will not in a remote server. And it's **your responsibility** to keep it safe_.
 
@@ -37,4 +37,4 @@ Ex: `["personal", "blog"]` means this key is used for personal blog.
 
 - It's **generated** from **Avatar Secret key**.
 - It **will** be used to verify your signatures.
-- It **can** be shared and stored in **Outis Publics**.
+- It **can** be shared and stored in **PWA One Publics**.
